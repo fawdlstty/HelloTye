@@ -1,2 +1,27 @@
 # HelloTye
-tyeéå¸¸ä¾¿äºå¾®æœåŠ¡äº’ç›¸è°ƒç”¨æ—¶çš„æµ‹è¯•ä¸éƒ¨ç½²ï¼Œèƒ½ä¸€è¡Œå‘½ä»¤å¯åŠ¨å¤šä¸ªé¡¹ç›®å¹¶é€šè¿‡ç¯å¢ƒå˜é‡æŒ‡å®šäº’ç›¸è°ƒç”¨åœ°å€ã€‚
+
+tye·Ç³£±ãÓÚÎ¢·şÎñ»¥Ïàµ÷ÓÃÊ±µÄ²âÊÔÓë²¿Êğ£¬ÄÜÒ»ĞĞÃüÁîÆô¶¯¶à¸öÏîÄ¿²¢Í¨¹ı»·¾³±äÁ¿Ö¸¶¨»¥Ïàµ÷ÓÃµØÖ·¡£
+
+Ç°ÆÚ×¼±¸£º
+
+1. ×¼±¸VS2019¼°.NET Core 3.1»·¾³
+2. °²×°»òÉı¼¶tye
+	- `dotnet tool install -g Microsoft.Tye --version "0.6.0-*" --add-source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json`
+	- `dotnet tool update -g Microsoft.Tye --version "0.6.0-*" --add-source https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json`
+
+demoÊÔÍæ²½Öè£º
+
+1. Ê¹ÓÃ `Developer Command Prompt for VS 2019` µ¼º½µ½slnÎÄ¼şËùÔÚÂ·¾¶
+2. Ö´ĞĞ£º`tye run`
+3. ´ò¿ª <http://localhost:8000/>£¬¼´¿É¿´µ½Ãæ°å
+
+´¿ÊÖ¹¤ÊÔÍæ²½Öè£º
+
+1. ½¨¸ö½â¾ö·½°¸£¬°üÀ¨ºóÌ¨ÓëÇ°Ì¨£¨Á½¸öWebApiÏîÄ¿£¬Í¨¹ı»¥Ïàµ÷ÓÃÁªÏµÀ´Ö¸´úÇ°ºóÌ¨¹ØÏµ£©
+2. ¼ÙÈçºóÌ¨ÏîÄ¿ÃûÎª`backend`£¬Ç°Ì¨¼´Í¨¹ı`Configuration.GetServiceUri ("backend")`À´»ñÈ¡ºóÌ¨ÏîÄ¿·ÃÎÊµØÖ·
+3. Ê¹ÓÃ `Developer Command Prompt for VS 2019` µ¼º½µ½slnÎÄ¼şËùÔÚÂ·¾¶
+4. Ö´ĞĞ£º`tye init`
+5. Ö´ĞĞ£º`tye run`
+6. ´ò¿ª <http://localhost:8000/>£¬¼´¿É¿´µ½Ãæ°å
+
+Ó¢ÎÄ½éÉÜ£º<https://devblogs.microsoft.com/aspnet/introducing-project-tye/>
